@@ -1,0 +1,29 @@
+{
+    "name": "mocha-json-spec-reporter",
+    "description": "A mocha spec reporter to allow JSON output.",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": {
+        "name": "Sal Gerace",
+        "email": "sgerace@gmail.com"
+    },
+    "keywords": [
+        "mocha",
+        "JSON",
+        "spec",
+        "reporter"
+    ],
+    "homepage": "https://github.com/sgerace/mocha-json-spec-reporter",
+    "repository": "git://github.com/sgerace/mocha-json-spec-reporter.git",
+    "main": "lib/reporter.js",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "mocha": ">=1.20.1"
+    },
+    "devDependencies": {}
+}

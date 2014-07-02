@@ -1,0 +1,1 @@
+var Reporter = require('../lib/reporter');
