@@ -1,7 +1,7 @@
 {
     "name": "mocha-json-spec-reporter",
     "description": "A mocha spec reporter to allow JSON output.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "license": "MIT",
     "author": {
         "name": "Sal Gerace",
