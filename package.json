@@ -1,7 +1,7 @@
 {
     "name": "mocha-json-spec-reporter",
     "description": "A mocha spec reporter to allow JSON output.",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "license": "MIT",
     "author": {
         "name": "Sal Gerace",
@@ -23,9 +23,15 @@
         "lib": "./lib"
     },
     "dependencies": {
+        "mkdirp": "0.5.0",
         "mocha": ">=1.20.1"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "chai": "1.9.1",
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-mocha-test": "0.11.0"
+    },
     "scripts": {
         "test": "mocha"
     }
